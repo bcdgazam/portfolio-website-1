@@ -58,3 +58,7 @@ body{
     border-radius: 5%;
     margin-top: 10px;
 }
+
+.top-banner {
+    background-image: url("images/.top-banner");
+}
