@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+}
+
+.col-md-6{
+    width: 50%;
+}
+
+.header-text {
+    padding-right: 20px;
+}
+
+.top-image-right{
+    width: 100%;
+}
+.header-heading-bottom {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.author-name{
+    color: #FFAF26;
+}
+
+.paragraph-margin{
+    margin-bottom: 10px;
+}
+
+.half-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.half-image {
+    padding-left: 20px;    
+    display: flex;
+    justify-content: center;
+}
+
+.header-text button {
+    color: #fff;
+    padding: 5px 20px 5px  20px;
+    background-image: linear-gradient(to right, #FC7C52, #FFAF26);
+    border: none;
+    border-radius: 5%;
+    margin-top: 10px;
+}
