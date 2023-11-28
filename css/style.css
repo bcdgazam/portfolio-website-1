@@ -45,8 +45,7 @@ body{
     height: 100%;
 }
 
-.half-image {
-    padding-left: 20px;    
+.half-image {  
     display: flex;
     justify-content: center;
 }
