@@ -7,9 +7,14 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+p{
+    margin-bottom: 10px;
+}
+
 .container{
     width: 1280px;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .header-section {
@@ -50,16 +55,28 @@ body{
     justify-content: center;
 }
 
-.header-text a {
+.hireme-button {
     color: #fff;
     padding: 5px 20px 5px  20px;
     background-image: linear-gradient(to right, #FC7C52, #FFAF26);
     border: none;
     border-radius: 5%;
-    margin-top: 10px;
     text-decoration: none;
+}
+
+.header-text p {
+    margin-bottom: 10px;
 }
 
 .hero-section-header {
    background-repeat: no-repeat;
+   background-image: url(images/top-banner.png);;
+}
+
+.dream-area-text {
+    margin-left: 70px;
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
 }
