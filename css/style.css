@@ -50,15 +50,16 @@ body{
     justify-content: center;
 }
 
-.header-text button {
+.header-text a {
     color: #fff;
     padding: 5px 20px 5px  20px;
     background-image: linear-gradient(to right, #FC7C52, #FFAF26);
     border: none;
     border-radius: 5%;
     margin-top: 10px;
+    text-decoration: none;
 }
 
-.top-banner {
-    background-image: url("images/.top-banner");
+.hero-section-header {
+   background-repeat: no-repeat;
 }
