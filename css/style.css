@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .col-md-6{
-    width: 45%;
+    width: 40%;
     float: left;
 }
 
@@ -84,4 +84,39 @@ h1, h2, h3, h4, h5, h6{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.fullstuck-web-area, .baby-web-area{
+    box-shadow: 5px 5px 23px #aea8a8;
+    padding: 20px;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.fullstuck-web-area {
+    margin-right: 30px;
+}
+
+.experience-area{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.footer-area{
+    text-align: center;
+    color: #ddd;
 }
