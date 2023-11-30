@@ -25,8 +25,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .col-md-6{
-    width: 40%;
-    float: left;
+    padding: 30px;
+    padding-top: 0px;
 }
 
 .header-text {
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .half-image img{
-    width: 100%;
+    width: 550px;
     height: 100%;
 }
 
@@ -93,14 +93,15 @@ h1, h2, h3, h4, h5, h6{
     height: 250px;
 }
 
-.fullstuck-web-area {
-    margin-right: 30px;
+.experience-column{
+    width: 50%;
+    float: left;
 }
 
 .experience-area{
     background-image: url("../images/exp-bg.png");
     background-repeat: no-repeat;
-    height: 250px;
+    height: 420px;
     background-position: left;
 }
 
@@ -108,15 +109,18 @@ h1, h2, h3, h4, h5, h6{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
+    margin-right: 15px;
 }
 
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    margin-left: 15px;
 }
 
 .footer-area{
     text-align: center;
-    color: #ddd;
+    color: #494848;
+    margin-top: 50px;
 }
